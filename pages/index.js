@@ -3,7 +3,7 @@ import DynamicLayout from "../components/dynamicLayout";
 const Home = () => {
   return (
     <DynamicLayout>
-      <div>Home Page</div>
+      <div>Home Page Test</div>
     </DynamicLayout>
   );
 };
