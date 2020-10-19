@@ -2,6 +2,6 @@
 
 module.exports = {
   // Use the CDN in production and localhost for development.
-  basePath: "/",
+  basePath: "",
   assetPrefix: "https://www.nptellogin.com",
 };
