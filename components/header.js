@@ -1,9 +1,11 @@
+import Container from "./container";
+
 const Header = () => {
   return (
-    <header className="flex justify-center items-center border container mx-auto p-4 h-40 mt-16">
-      <h1 className="text-4xl font-extrabold">
-        A Complete Guide to NPTEL Login, Course Enrollment and Certification
-      </h1>
+    <header className="w-screen bg-blue-600 py-4">
+      <Container>
+        <strong className="text-white  font-medium">NPTEL Guide</strong>
+      </Container>
     </header>
   );
 };

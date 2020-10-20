@@ -1,13 +1,16 @@
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
-    // purgeLayersByDefault: true,
+    purgeLayersByDefault: true,
   },
-  purge: [],
+  purge: {
+    layers: ["components", "utilities"],
+    content: ["./components/*.{js,ts,jsx,tsx}", "./pages/*.{js,ts,jsx,tsx}"],
+  },
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Nunito"],
+        serif: ["Barlow"],
       },
       screens: {
         xl: "1024px",

@@ -1,5 +1,7 @@
+import Container from "./container";
+
 export default ({ children }) => (
-  <div className="w-screen flex justify-center">
-    <div className="flex px-4 w-full xl:w-xl">{children}</div>
+  <div className="py-8  bg-gray-100  flex-1">
+    <Container>{children}</Container>
   </div>
 );
