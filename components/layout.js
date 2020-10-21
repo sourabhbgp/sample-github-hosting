@@ -5,7 +5,7 @@ import Body from "./body";
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col md:h-screen">
+    <div className="flex flex-col">
       <Header />
       <Body>{children}</Body>
       <Footer />
