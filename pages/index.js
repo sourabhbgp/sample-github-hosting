@@ -20,11 +20,11 @@ const Home = () => {
       </p>
 
       <h2 className="text-3xl font-bold leading-tight py-4 mt-8">
-        NPTEL Login and Sigin
+        NPTEL Login and Signin
       </h2>
 
       <p className="text-gray-700 font-medium py-4">
-        NPTEL follows the simple steps for Login or Sigin as any other website
+        NPTEL follows the simple steps for Login or Signin as any other website
         does.
       </p>
 
