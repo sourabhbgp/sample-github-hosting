@@ -4,11 +4,7 @@ import Title from "../components/title";
 const Home = () => {
   return (
     <DynamicLayout>
-      <Title
-        title={
-          "A Complete Guide to NPTEL Login, Course Enrollment and Certification"
-        }
-      />
+      <Title title={"NPTEL"} />
 
       <p className="text-gray-700 font-medium py-4">
         NPTEL or National Programme on Technology Enhanced Learning is a project
@@ -20,12 +16,11 @@ const Home = () => {
       </p>
 
       <h2 className="text-3xl font-bold leading-tight py-4 mt-8">
-        NPTEL Login and Signin
+        NPTEL Login
       </h2>
 
       <p className="text-gray-700 font-medium py-4">
-        NPTEL follows the simple steps for Login or Signin as any other website
-        does.
+        NPTEL follows the simple steps for Login as any other website does.
       </p>
 
       <p className="text-gray-700 font-medium py-2">
@@ -57,7 +52,6 @@ const Home = () => {
 
       <div className="py-12">
         <a
-          target="_blank"
           hrefLang="en"
           href="https://swayam.gov.in/wso?redirect=/"
           className="py-3 px-6 rounded  bg-blue-600  text-white  cursor-pointer"
